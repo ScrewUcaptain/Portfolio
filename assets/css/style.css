@@ -13,14 +13,13 @@
         Blue : hsl(207, 90%, 72%)
         Pink : hsl(356, 66%, 75%)
         Teal : hsl(174, 63%, 62%)
-        Turquoise : hsl(164, 91, 50)
     */
-    --first-hue: 164;
+    --first-hue: 250;
     --second-hue: 219;
-    --sat: 91%;
-    --lig: 50%;
+    --sat: 66%;
+    --lig: 75%;
     --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-    --first-color-alt: hsl(var(--first-hue), var(--sat),46%); /* lig - 4%*/
+    --first-color-alt: hsl(var(--first-hue), var(--sat),71%);
     --title-color: hsl(var(--second-hue), 15%, 95%);
     --text-color: hsl(var(--second-hue), 8%, 95%);
     --text-color-light: hsl(var(--second-hue), 4%, 55%);
@@ -1032,7 +1031,6 @@ body.light-theme {
 
     .about_data {
         text-align: initial;
-        
     }
 
     .about_info {
